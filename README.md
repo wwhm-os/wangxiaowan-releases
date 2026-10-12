@@ -1,2 +1,15 @@
-# wangxiaowan-releases
-汪小丸 Windows 桌宠发行包与更新信息
+# 汪小丸
+
+Windows 11 x64 桌面陪伴小猫。
+
+[下载最新版本](https://github.com/wwhm-os/wangxiaowan-releases/releases/latest)
+
+第一次使用请下载以 `WangXiaowan-Setup-` 开头的 `.exe`，双击后按中文提示安装。不需要安装 .NET 或 Git。
+
+安装后可在小猫右键菜单或“陪伴设置”中点击“检查更新”，阅读更新说明，下载后点击“开始安装”。更新保留原来的陪伴设置。安装失败或取消时可重新打开原版本。
+
+ZIP 是免安装版本，完整解压后运行 `WangXiaowan.exe`。便携版的更新入口下载正式安装版，不修改原来的解压目录。
+
+程序平时在本机运行；主动检查更新时才连接 GitHub，不上传个人设置。安装包未进行 Windows 代码签名，系统可能显示未知发布者。应用内更新使用固定公钥验证更新信息，并校验安装文件 SHA256。
+
+此仓库仅存放发行包和更新信息。
